@@ -1,13 +1,13 @@
 {
-  "name": "dialog-polyfill",
+  "name": "forstajs-dialog-polyfill",
   "version": "0.4.2",
-  "description": "Polyfill for the dialog element",
+  "description": "ES6 importable polyfill for the dialog element",
   "main": "dialog-polyfill.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleChrome/dialog-polyfill.git"
+    "url": "https://github.com/forstaathletics/forstajs-dialog-polyfill"
   },
-  "author": "The Chromium Authors",
+  "author": "The Chromium Authors, Forsta",
   "license": "BSD",
-  "homepage": "https://github.com/GoogleChrome/dialog-polyfill"
+  "homepage": "https://github.com/forstaathletics/forstajs-dialog-polyfill"
 }
