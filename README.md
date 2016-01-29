@@ -1,4 +1,4 @@
-dialog-polyfill.js is a polyfill for `<dialog>`.
+forstajs-dialog-polyfill.js is a polyfill for `<dialog>`.
 
 `<dialog>` is an element for a popup box in a web page. See
 [more information and demos](http://falken-testing.appspot.com/dialog/index.html)
@@ -9,10 +9,9 @@ and the
 
 ### Installation
 
-You may optionally install via NPM or Bower-
+You can optionally install via NPM-
 
-    $ npm install dialog-polyfill
-    $ bower install dialog-polyfill
+    $ npm install forstajs-dialog-polyfill
 
 ### Supports
 
@@ -27,25 +26,8 @@ This polyfill works on modern versions of all major browsers. It also supports I
 
 ## Example
 
-```html
-<head>
-  <script src="dialog-polyfill.js"></script>
-  <link rel="stylesheet" type="text/css" href="dialog-polyfill.css" />
-</head>
-<body>
-  <dialog>
-    I'm a dialog!
-    <form method="dialog">
-      <input type="submit" value="Close" />
-    </form>
-  </dialog>
-  <script>
-    var dialog = document.querySelector('dialog');
-    dialogPolyfill.registerDialog(dialog);
-    // Now dialog acts like a native <dialog>.
-    dialog.showModal();
-  </script>
-</body>
+```js
+require('forstajs-dialog-polyfill')
 ```
 
 ### ::backdrop
