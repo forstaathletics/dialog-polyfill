@@ -1,6 +1,6 @@
 {
   "name": "forstajs-dialog-polyfill",
-  "version": "0.4.2",
+  "version": "0.4.2a",
   "description": "ES6 importable polyfill for the dialog element",
   "main": "dialog-polyfill.js",
   "repository": {
